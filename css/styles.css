@@ -1,0 +1,276 @@
+#grad1{
+
+    background: linear-gradient( #000000 0%, #035380 29.17%, #5494A3 99.98%, #042D2D 99.99%);
+   
+}
+html{
+    height:100%;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+body{
+    height:100%;
+    overflow:hidden;
+    overflow-y: scroll;
+}
+.color{
+    color:rgb(2, 34, 53);
+    padding:12px;
+    font-size: 30px;
+}
+.bg1{
+    background-color:rgb(188, 230, 236);
+    box-shadow: 0px 0px 4px rgba(2, 2, 2, 0.25);
+}
+.bg2{
+    background-color:orange;
+}
+.logo{
+    width:85%;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:0px;
+    margin-right: 0px;
+    margin-left:40px;
+}
+.logo-small{
+    width:55%;
+    padding:10px;
+ 
+ 
+
+}
+
+.company-name{
+font-family: 'Times';
+font-style: normal;
+font-weight: 600;
+color:#f0e4e4;
+font-size: 36px;
+line-height: 22px;
+align-items: left;
+text-align: center;
+text-decoration-style: 1px solid #FFD740;
+margin:0px;
+padding-top:30px;
+padding-left:0px;
+margin-left:-10px;
+text-shadow: 1px solid #FFD740;
+
+}
+@media only screen and (min-width:700px) and (max-width:1100px){
+    .logo{
+        width:80%;
+        padding-left:12px;
+        padding-top:20px;
+        padding-right:0px;
+        margin-right: 0px;
+    }
+    .company-name{
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 600;
+    color:#f0e4e4;
+    font-size: 24px;
+    line-height: 22px;
+    align-items: left;
+    text-align: center;
+    text-decoration-style: 1px solid #FFD740;
+    margin:0px;
+    padding-top:30px;
+    padding-left:2px;
+    margin-left:-10px;
+    text-shadow: 1px solid #FFD740;
+    
+    }
+
+}
+.slogan{
+    font-family: Basic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+margin-bottom:0px;
+text-align: center;
+color: #E6EE9C;
+}
+.img{
+    margin-top:40px;
+    margin-left: 20px;
+    width:90%
+}
+.fit{
+    width:100%;
+    height:100%;
+    margin-top: -50px;
+  
+}
+.est{
+    font-family: Basic;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+align-items: center;
+text-align: center;
+color: #F2994A; 
+
+}
+.nav{
+background: #E0F2F1;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home{
+    padding:10px;
+    
+}
+.navbar-section.two a{
+    color:black;
+
+    font-family: Comfortaa;
+font-style: thin;
+
+font-size: 22px;
+
+}
+.navbar-section.one a{
+    color:black;
+
+    font-family: Comfortaa;
+font-style: thin;
+
+font-size: 22px;
+
+}
+.display{
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.padding{
+    margin-left:5px;
+    margin-bottom:4px;
+}
+.navbar-section.one a:focus{
+    
+        box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.2);
+        text-decoration: none;
+  
+}
+.navbar-section.two a:focus{
+    box-shadow:none;
+    text-decoration: none;
+    
+
+}
+.navbar-section.two a:hover{
+    text-decoration: underline;
+  
+}
+
+.navbar-section.one a:hover{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+}
+.md{
+margin-bottom:0px;
+font-family: Barlow;
+font-style: normal;
+font-weight: 500;
+font-size:20px;
+line-height: 36px;
+
+color: #C5CAE9;
+}
+.partners{
+font-family: Barlow;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 18px;
+
+
+color: #000000;
+
+}
+.footer{
+    position: relative;   
+    left:0px;
+    right:0px;
+    bottom:-100px;
+    background: #333333;
+    z-index: 2;
+}
+.footer-about{
+    position: relative;   
+    left:0px;
+    right:0px;
+    bottom:-500px;
+    background: #333333;
+    z-index: 2;
+}
+
+    
+
+.address{
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size:16px;
+padding-top:10px;
+padding-left:20px;
+align-items: center;
+text-align: left;
+color: #E6EE9C;
+margin-bottom:0px;
+}
+
+.address-content{
+    font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+padding-top:0px;
+margin-top:0px;
+color: #E0F2F1;
+text-align:left;
+padding-left:20px;
+}
+
+@media only screen and (max-width:700px){
+    .slogan{
+        font-family: Basic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    
+    padding:20px;
+    text-align: center;
+    color: #E6EE9C;
+    }
+    .logo{
+        width:50%;
+        padding-left:12px;
+        padding-top:20px;
+        padding-right:0px;
+        margin-right: 0px;
+    }
+    .company-name{
+       padding-bottom: 20px;
+    font-family: 'Times';
+    font-style: normal;
+    font-weight: 600;
+    color:#f0e4e4;
+    font-size: 24px;
+    line-height: 22px;
+    align-items: left;
+    text-align: center;
+    text-decoration-style: 1px solid #FFD740;
+    margin:0px;
+    padding-top:30px;
+    padding-left:2px;
+    float:left;
+    text-shadow: 1px solid #FFD740;
+    
+    }
+
+}
