@@ -1,8 +1,11 @@
 #grad1{
 
-    background: linear-gradient( #000000 0%, #035380 29.17%, #5494A3 99.98%, #042D2D 99.99%);
+    /*background: linear-gradient( #000000 0%, #035380 29.17%, #5494A3 99.98%, #042D2D 99.99%);*/
+    background: linear-gradient(rgb(166, 215, 255),white);
    
 }
+
+
 html{
     height:100%;
     overflow:hidden;
@@ -13,13 +16,29 @@ body{
     overflow:hidden;
     overflow-y: scroll;
 }
+.mail{
+    display:flex;
+    padding-top:10px;
+
+align-items: center;
+text-align: left;
+
+}
+.mail-icon{
+    padding-left:20px;
+    color:#E6EE9C;
+    margin-right:0px;
+    padding-right: 0px;
+    padding-top:6px;
+
+}
 .color{
-    color:rgb(2, 34, 53);
+    color:rgb(253, 254, 255);
     padding:12px;
     font-size: 30px;
 }
 .bg1{
-    background-color:rgb(188, 230, 236);
+    background-color:#00153b;
     box-shadow: 0px 0px 4px rgba(2, 2, 2, 0.25);
 }
 .bg2{
@@ -45,8 +64,8 @@ body{
 font-family: 'Times';
 font-style: normal;
 font-weight: 600;
-color:#f0e4e4;
-font-size: 36px;
+color:#000768;
+font-size: 38px;
 line-height: 22px;
 align-items: left;
 text-align: center;
@@ -58,7 +77,9 @@ margin-left:-10px;
 text-shadow: 1px solid #FFD740;
 
 }
+
 @media only screen and (min-width:700px) and (max-width:1100px){
+    
     .logo{
         width:80%;
         padding-left:12px;
@@ -70,7 +91,7 @@ text-shadow: 1px solid #FFD740;
     font-family: 'Times';
     font-style: normal;
     font-weight: 600;
-    color:#f0e4e4;
+    color:#000768;
     font-size: 24px;
     line-height: 22px;
     align-items: left;
@@ -88,11 +109,11 @@ text-shadow: 1px solid #FFD740;
 .slogan{
     font-family: Basic;
 font-style: normal;
-font-weight: normal;
+font-weight: 600;
 font-size: 18px;
 margin-bottom:0px;
 text-align: center;
-color: #E6EE9C;
+color: #0a5c36;
 }
 .img{
     margin-top:40px;
@@ -108,20 +129,24 @@ color: #E6EE9C;
 .est{
     font-family: Basic;
 font-style: normal;
-font-weight: normal;
+font-weight: 600;
 font-size: 16px;
 align-items: center;
 text-align: center;
-color: #F2994A; 
+color:rgb(119, 20, 20); 
 
 }
+
 .nav{
-background: #E0F2F1;
+background: #ffffff;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .home{
-    padding:10px;
+    padding:15px;
     
+}
+.navbar-section.two dropdown-toggle{
+    background-color: rosybrown;
 }
 .navbar-section.two a{
     color:black;
@@ -133,27 +158,55 @@ font-size: 22px;
 
 }
 .navbar-section.one a{
-    color:black;
-
-    font-family: Comfortaa;
+    color:rgb(21, 37, 129);
+align-self: center;
+text-align: center;
 font-style: thin;
+font-weight: 600;
+font-family: 'Calibri';
+    text-shadow: rgba(0, 0, 0, 0.25);
+font-size: 16px;
 
-font-size: 22px;
-
+}
+.spacing{
+    padding-left:20px;
 }
 .display{
     padding-top: 40px;
     padding-left: 50px;
+    
+}
+.intro{
+    color:rgb(7, 82, 82);
+    text-align: left;
+    font-style:italic;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    padding-right: 30px;
 }
 .padding{
     margin-left:5px;
     margin-bottom:4px;
 }
 .navbar-section.one a:focus{
-    
+       
         box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.2);
         text-decoration: none;
   
+}
+.keydiv{
+margin-bottom: 0px;
+}
+.keys{
+    font-family: Basic;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+margin-bottom:0px;
+text-align: center;
+word-spacing: 10px;
+color: #47053f;
 }
 .navbar-section.two a:focus{
     box-shadow:none;
@@ -179,7 +232,7 @@ font-weight: 500;
 font-size:20px;
 line-height: 36px;
 
-color: #C5CAE9;
+color: #350f00;
 }
 .partners{
 font-family: Barlow;
@@ -197,7 +250,7 @@ color: #000000;
     left:0px;
     right:0px;
     bottom:-100px;
-    background: #333333;
+    background: #00153b;
     z-index: 2;
 }
 .footer-about{
@@ -205,10 +258,14 @@ color: #000000;
     left:0px;
     right:0px;
     bottom:-500px;
-    background: #333333;
+    background: #00153b;
     z-index: 2;
 }
+.link-icons{
 
+    margin-left: 40%;
+    width:70%;
+}
     
 
 .address{
@@ -217,7 +274,7 @@ font-style: normal;
 font-weight: normal;
 font-size:16px;
 padding-top:10px;
-padding-left:20px;
+padding-left:10px;
 align-items: center;
 text-align: left;
 color: #E6EE9C;
@@ -240,12 +297,12 @@ padding-left:20px;
     .slogan{
         font-family: Basic;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 18px;
     
     padding:20px;
     text-align: center;
-    color: #E6EE9C;
+    color: #005c31;
     }
     .logo{
         width:50%;
@@ -259,7 +316,7 @@ padding-left:20px;
     font-family: 'Times';
     font-style: normal;
     font-weight: 600;
-    color:#f0e4e4;
+    color:#000768;
     font-size: 24px;
     line-height: 22px;
     align-items: left;

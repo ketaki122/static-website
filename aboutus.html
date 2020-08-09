@@ -12,6 +12,11 @@
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.13.5/jszip.js"></script>
+
   </head>
 
   <body id="grad1">
@@ -43,7 +48,7 @@
         </div>
       </div>
         <div class="column col-2 col-xs-12 col-sm-12 " >
-          <img class="logo" src="images/logo.jpg">
+          <img class="logo hide-sm" src="images/logo.jpg">
         </div>
         <div class=" column col-10 col-xs-12 col-sm-12 ">
     
@@ -62,7 +67,7 @@
                 <!-- basic dropdown button -->
                   <div class="dropdown">
                       <a href="#" class="dropdown-toggle" tabindex="0">
-                     Projects<i class="icon icon-caret padding"></i>
+                     Services<i class="icon icon-caret padding"></i>
                    </a>
                  <!-- menu component -->
                 <ul class="menu">
@@ -80,36 +85,91 @@
               <div class="home">
                 <div class="dropdown">
                   <a href="#" class="dropdown-toggle" tabindex="0">
+                 Projects<i class="icon icon-caret padding"></i>
+               </a>
+             <!-- menu component -->
+            <ul class="menu">
+            <li><a href="#">Medical College</a></li>
+            <li><a href="#">Hospitals</a></li>
+            <li><a href="#">District Jail</a></li>
+            <li><a href="#">Tourism Work</a></li>
+            <li><a href="#">University</a></li>
+            <li><a href="#">Court</a></li>
+       
+
+            </ul>
+            </div>
+              </div>
+              <div class="home">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" tabindex="0">
+                 Human Resources<i class="icon icon-caret padding"></i>
+               </a>
+             <!-- menu component -->
+            <ul class="menu">
+            <li><a href="#">Employee</a></li>
+            <li><a href="#">Recruitment Process</a></li>
+            <li><a href="#">Awards and Recognition</a></li>
+            </ul>
+            </div>
+              </div>
+              <div class="home">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" tabindex="0">
                  Training Institute<i class="icon icon-caret padding"></i>
                </a>
              <!-- menu component -->
             <ul class="menu">
-            <li><a>Faculty</a></li>
-            <li><a>Courses</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Courses</a></li>
             </ul>
             </div>
               </div>
-              <div class="home"><a href="index.html" >Our Clients</a></div>
+              <div class="home"><a href="#" >Publications</a></div>
+              <div class="home"><a href="#" >Our Clients</a></div>
               <div class="home"><a href="./aboutus.html" >About Us</a></div>
             </div>
           </div>
           
-        </div>
-        <div class="column col-12">
-
-        </div>
-         
+        </div> 
+          </div>
+          <div class="columns">
+            <div class="column col-12 ">
+              <div class="display">
+             <p class="md">
+              Managing Director : 
+             </p>
+              <p class="partners">Mr. Rakesh Kumar Singh </p>
+              <p class="md">Partners in the Organization :</p> 
+              <p class="partners">
+                1) Er. Rakesh Kumar Singh
+                <br>
+                2) Ar. Siddharth Kumar Singh
+                <br>
+                3) Er. Adarsh Kumar Singh
+                <br>
+                4) Miss. Jyoti Singh
+                <br> 
+                5) Miss. Mridula Singh
+              </p>
             
-            
+             
+           </div>
+            </div>
           </div>
           <div class="footer-about">
             <div class="columns">
             
               
-              <div class="column col-sm-12 col-xs-12 col-4">
+              <div class="column col-sm-12 col-xs-12 col-3">
                
                   <div>
-                   <p class="address">Address:</p>
+                    <div class="mail">
+                      <i class="material-icons mail-icon">business</i>
+                      <p class="address">Address:</p>
+
+                    </div>
+                   
                    
                    <p class="address-content">
                     Add-5/203-A Vineet Khand ,
@@ -122,10 +182,15 @@
                   </div>
 
               
-              <div class=" column col-sm-12 col-xs-12 col-4">
+              <div class=" column col-sm-12 col-xs-12 col-3">
                 
                   <div>
-                   <p class="address">Contact:</p>
+                    <div class="mail">
+                      <i class="material-icons mail-icon">phone</i>
+                      <p class="address">Contact:</p>
+
+                    </div>
+                   
                    
                    <p class="address-content">
                     Mr. Rakesh Kumar Singh : 
@@ -136,17 +201,43 @@
                   </div>
 
               
-               <div class="column col-sm-12 col-xs-12 col-4">
+               <div class="column col-sm-12 col-xs-12 col-3">
                      
                
                   <div>
-                   <p class="address">Official email-id:</p>
+                  
+                   <div class="mail">
+                     <i class="material-icons mail-icon">email</i>
+                     <p class="address">Official email-id:</p>
                    
+                   </div>
                    <p class="address-content">
                     mpil042014@gmail.com
                    </p>
+                   
                   </div>
                   </div>
+
+                  <div class="column col-sm-12 col-xs-12 col-3">
+                     
+               
+                    <div>
+                    
+                     <div class="mail">
+                       <i class="material-icons mail-icon">link</i>
+                       <p class="address">LINKS :</p>
+                     
+                     </div>
+                     <div class="mail">
+                       <a href="#"><img class="link-icons" src="images/icons8-facebook-48.png"></a>
+                       <a href="#"><img class="link-icons" src="images/icons8-youtube-squared-48.png"></a>
+                       <a href="#"><img class="link-icons" src="images/icons8-instagram-48.png"></a>
+
+                     </div>
+                     
+                    </div>
+                    </div>
+  
 
                </div>
             
@@ -168,6 +259,8 @@
           
         
     <!--JavaScript at end of body for optimized loading-->
+   
+    
     
   </body>
 </html>
