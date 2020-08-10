@@ -322,7 +322,16 @@ color: #000000;
    margin-left: 20px;
     width:50%;
 }
-    
+ .navbar-section.two .dropdown .menu{
+     background: linear-gradient(rgb(243, 250, 253),rgb(166, 215, 255));
+     max-height: inherit;
+     position:absolute;
+     top:109%;
+    border: 3px solid #00153b;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 310px;
+ }
+
 
 .address{
     font-family: Barlow;
