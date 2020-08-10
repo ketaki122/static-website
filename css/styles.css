@@ -302,7 +302,7 @@ color: #000000;
     position: relative;   
     left:0px;
     right:0px;
-    bottom:-100px;
+    bottom:-50x;
     background: #00153b;
     z-index: 2;
 }
@@ -310,12 +310,14 @@ color: #000000;
     position: relative;   
     left:0px;
     right:0px;
-    bottom:-100px;
+    bottom:-50px;
     background: #00153b;
     z-index: 2;
 }
 .link-icons{
-
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom:20px;
     margin-left: 40%;
     width:70%;
 }
