@@ -152,6 +152,16 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.tooltip{
+  text-align:center;
+  color: #00153b;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  font-weight: 600;
+  margin-top: 0px;
+  
+}
 .nav-2 {
   background: #000768;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -262,6 +272,13 @@ body {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   background: linear-gradient(rgb(239, 217, 252), white);
+}
+.publications{
+  padding: 10px;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: #ffffff;
 }
 
 .mv {
@@ -681,6 +698,19 @@ btn:visited {
 .img-margin-2 {
   margin: 10px;
   padding-right: 10px;
+}
+.img-margin-3 {
+  display:block;
+  text-align: center;
+
+}
+.pubs img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.align{
+  text-align: center;
 }
 .fields ul {
   font-style: italic;
